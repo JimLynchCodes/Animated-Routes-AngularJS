@@ -1,0 +1,30 @@
+<div class="container">
+
+  <div>
+    <acme-navbar creation-date="main.creationDate"></acme-navbar>
+  </div>
+
+  <div class="explanation-text">
+    <h2>Example of AngularJS UI-Router CSS Transitions Between Routes with Support for "Special Routes".</h2>
+    <p>The links in the navbar above allow you to move between routes.
+       The default transition is a one second fade in / fade out of the opacity.
+       However, notice that the "About" route transitions differently. This one slides up from the bottom
+       and then slides back down. This "special transition" is achieved by putting an ng-class directive on
+       the ui-view and then setting the controller variable based on whether $state.current.name is the
+       name of the route with the special transition.</p>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-6 col-md-4" ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
+      <div class="thumbnail">
+        <img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
+        <div class="caption">
+          <h3>{{ awesomeThing.title }}</h3>
+          <p>{{ awesomeThing.description }}</p>
+          <p><a ng-href="{{awesomeThing.url}}">{{ awesomeThing.url }}</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
