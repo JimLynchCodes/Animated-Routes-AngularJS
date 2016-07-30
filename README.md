@@ -1,2 +1,3 @@
-# Fun Times on the Front End
-The purpose of this repo is to store various little front-end projects and examples of js, html, or css /scss  tips I pick over time.
+# Animated Routes AngularJS
+
+The purpose of this repo is to store an simple AngularJS project that I made using the Gulp-Angular generator. It uses UI-Router and has multiple css animations for various animated transitions between specified routes.
