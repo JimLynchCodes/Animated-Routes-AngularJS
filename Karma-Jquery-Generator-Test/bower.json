@@ -1,0 +1,11 @@
+{
+  "name": "karmajqueryfizzbuzzstarter",
+  "version": "0.0.1",
+  "description": "Karma Jquery Fizzbuzz Starter",
+  "dependencies": {
+    "jquery": "latest"
+  },
+  "devDependencies": {
+    "jasmine-jquery": "~1.5.93"
+  }
+}
